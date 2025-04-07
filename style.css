@@ -1,0 +1,76 @@
+body {
+  font-family: 'Press Start 2P', monospace;
+  background: black;
+  color: lime;
+  margin: 0;
+  padding: 0;
+  scroll-behavior: smooth;
+}
+
+header {
+  text-align: center;
+  padding: 1em;
+  background-color: #111;
+  border-bottom: 2px solid lime;
+}
+
+nav ul {
+  list-style: none;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+}
+
+nav a {
+  color: lime;
+  text-decoration: none;
+}
+
+section {
+  padding: 2em;
+  border-bottom: 1px dashed lime;
+}
+
+.project-grid {
+  display: flex;
+  gap: 1em;
+}
+
+.project {
+  background: #222;
+  padding: 1em;
+  border: 1px solid lime;
+  flex: 1;
+}
+
+.skill-bar {
+  margin: 1em 0;
+}
+
+.skill-bar .bar {
+  display: block;
+  width: var(--level);
+  background: lime;
+  height: 20px;
+}
+
+form input, form textarea {
+  display: block;
+  width: 100%;
+  margin: 0.5em 0;
+  font-family: 'Press Start 2P', monospace;
+}
+
+button {
+  padding: 0.5em 1em;
+  font-family: 'Press Start 2P', monospace;
+  background-color: lime;
+  border: none;
+}
+
+footer {
+  text-align: center;
+  padding: 1em;
+  background: #111;
+}
